@@ -8,7 +8,6 @@ import xlrd
 import xlwt
 from xlutils.copy import copy
 
-
 def rotateAntiClockWise90(img):  # 逆时针旋转90度
     trans_img = cv2.transpose(img)
     img90 = cv2.flip(trans_img, 0)
